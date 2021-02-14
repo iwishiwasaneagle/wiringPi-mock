@@ -1,0 +1,30 @@
+/*
+ *  version.h.in 
+ *
+ *  Created on: Feb 13, 2021
+ *
+ *  Copyright (c) 2021 Jan-Hendrik Ewers.
+ *
+ *  This file is part of wiringPi-mock.
+ *
+ *  This program is free software: you can redistribute it and/or
+ *  modify it under the terms of the Lesser GNU General Public
+ *  License as  published by the Free Software Foundation, either
+ *  version 3 of the  License, or (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ *  See the GNU General Public License for more details.
+ *
+ */
+
+#ifndef @PROJECT_NAME_UPPERCASE@_VERSION_
+#define @PROJECT_NAME_UPPERCASE@_VERSION_
+
+#define @PROJECT_NAME_UPPERCASE@_VERSION_MAJOR (@PROJECT_VERSION_MAJOR@)
+#define @PROJECT_NAME_UPPERCASE@_VERSION_MINOR (@PROJECT_VERSION_MINOR@)
+#define @PROJECT_NAME_UPPERCASE@_VERSION "@PROJECT_VERSION@"
+
+#endif  // @PROJECT_NAME_UPPERCASE@_VERSION_
