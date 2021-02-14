@@ -27,6 +27,7 @@ The sole purpose of this library is to simulate wiringPi. As such, just use it l
 
 ## Documentation
 
+Visit https://iwishiwasaneagle.github.io/wiringPi-mock/ or build from source:
 ```bash
 doxygen
 firefox docs/index.html
