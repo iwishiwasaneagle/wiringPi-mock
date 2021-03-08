@@ -212,6 +212,20 @@ int analogRead (int pin);
  */
 void analogWrite (int pin, int value);
 
+/**
+ * @brief When called, it will wait for an interrupt event to happen on that pin and your program will be stalled..
+ * 
+ * The timeOut parameter is given in milliseconds, or can be -1 which means to wait forever.
+ *
+ * 
+ * @param pin Pin number
+ * @param timeout Timeout (milliseconds)
+ * @param mode ::INT_EDGE_SETUP, ::INT_EDGE_FALLING, ::INT_EDGE_RISING, ::INT_EDGE_BOTH
+ *
+ * @return The return value is -1 if an error occurred (and errno will be set appropriately), 0 if it timed out, or 1 on a successful interrupt event.
+ */
+int waitForInterrupt (int pin, int timeOut, int mode);
+
 /************************************/
 /**** timing function prototypes ****/
 /************************************/
