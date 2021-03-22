@@ -1,6 +1,6 @@
-# WiringPi-Sim 
+# WiringPi-mock 
 
-![CI](https://github.com/iwishiwasaneagle/WiringPi-Sim/workflows/CI/badge.svg) 
+![CI](https://github.com/iwishiwasaneagle/wiringPi-mock/workflows/CI/badge.svg) 
 ![Docs](https://github.com/iwishiwasaneagle/wiringPi-mock/workflows/Docs/badge.svg)
 
  > Continuation of [dotsha747/WiringPi-Sim](https://github.com/dotsha747/WiringPi-Sim) due to inactivity. I needed a few more wiringPi functions, such as `wiringPiISR`, and as such decided to revamp this repo.
@@ -14,7 +14,7 @@ before finally porting it to the Pi. Sadly wiringPi doesn't run on non-rpi PCs.
 
 ```bash
 cd [YOUR DESIRED INSTALL DIR (such as /opt)]
-git clone https://github.com/iwishiwasaneagle/wiringPi-sim
+git clone https://github.com/iwishiwasaneagle/wiringPi-mock
 cd wiringPi-sim
 sudo ./install.sh
 ```
