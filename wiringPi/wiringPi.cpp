@@ -94,6 +94,12 @@ void analogWrite(int pin, int value) {
 }
 ;
 
+int waitForInterrupt (int pin, int timeOut, int mode){
+    delay(timeOut/4);
+    return 0;
+}
+;
+
 /* timing functions */
 
 /* function to calculate the difference between two timespecs */
