@@ -1,0 +1,4 @@
+<map id="waitForInterrupt" name="waitForInterrupt">
+<area shape="rect" id="node1" title="When called, it will wait for an interrupt event to happen on that pin and your program will be stall..." alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node2" href="$wiringPi_8cpp.html#a4cde885948627a65f23e9f5681083d32" title="Wait for an amount of milliseconds." alt="" coords="167,5,219,32"/>
+</map>
